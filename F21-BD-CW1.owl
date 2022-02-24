@@ -1,0 +1,1044 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/sdixi/ontologies/2022/1/Coursework1Tours"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/sdixi/ontologies/2022/1/Coursework1Tours">
+    <Prefix name="" IRI="http://www.semanticweb.org/sdixi/ontologies/2022/1/Coursework1Tours#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:isDefinedBy"/>
+        <Literal xml:lang="en">Devavrata Dixit (ID-H00390892)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal xml:lang="en">Coursework 1: Stage 1- WattTours Ontology</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#BudgetAccommodation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Campground"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#LuxuryHotel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Attractions"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Countries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Destinations"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TourBooking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TourDuration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#WorldTour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#long"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#short"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CapitalOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CityIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_rating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#locatedin"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#packageof"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#which_includes"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NumberOfDays"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NumberOf_Nights"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_Of_People"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TourDates"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bangkok"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Brooklyn_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BuddhaTemple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#California"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CentralMarket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chennai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dar_es_Salaam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Delhi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EagleSquare"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FloatingMarket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#France"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#India"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Irvine_museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JomteinBeach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kenya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Langkawi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LumphiniPark"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malaysia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Menara_Tower"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metropolitan_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Miami"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mombasa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mumbai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nairobi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nairobi_Gallery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nairobi_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NewYork"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nice"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oregon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Orlando"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paris"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PatongBeach"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pattaya"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PetronasTwinTowers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Phuket"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PhuketTown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RoyalGrandPalace"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SanFrancisco_Museum"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkybridgeCableCar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tanzania"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tanzania_Art_Gallery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thailand"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ThreeBeachesHill"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TropicalGarden"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#USA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UnderwaterWorld"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WashingtonDC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Wolf_Art_Gallery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zanzibar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#1star_rating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#10_days_9_nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2_days_1_night"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2star_rating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3star_rating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#4_days_3_nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q170919"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q182565"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q1861"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q1865"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q273303"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+        <Class IRI="#WorldTour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#BudgetAccommodation"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#BudgetAccommodation"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_rating"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#1star_rating"/>
+                <NamedIndividual IRI="#2star_rating"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Campground"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Campground"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_rating"/>
+            <NamedIndividual IRI="#1star_rating"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#LuxuryHotel"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#LuxuryHotel"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_rating"/>
+            <NamedIndividual IRI="#3star_rating"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Attractions"/>
+        <Class IRI="#Destinations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cities"/>
+        <Class IRI="#Destinations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Countries"/>
+        <Class IRI="#Destinations"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Destinations"/>
+        <Class IRI="#WorldTour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TourBooking"/>
+        <Class IRI="#WorldTour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TourDuration"/>
+        <Class IRI="#WorldTour"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#long"/>
+        <Class IRI="#TourDuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#long"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#which_includes"/>
+            <NamedIndividual IRI="#Thailand"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#TourDuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#which_includes"/>
+            <NamedIndividual IRI="#Malaysia"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short"/>
+        <Class IRI="#TourDuration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#short"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#which_includes"/>
+            <ObjectOneOf>
+                <NamedIndividual IRI="#Bangkok"/>
+                <NamedIndividual IRI="#Kuala-Lumpur"/>
+            </ObjectOneOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Bangkok"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#BuddhaTemple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#California"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#CentralMarket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Chennai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Dar_es_Salaam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Delhi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#EagleSquare"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#FloatingMarket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#France"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#India"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#JomteinBeach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#Kenya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Langkawi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#LumphiniPark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#Menara_Tower"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Miami"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Mombasa"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Mumbai"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Nairobi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#NewYork"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Nice"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Oregon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Orlando"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Paris"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#PatongBeach"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Pattaya"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#PetronasTwinTowers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Phuket"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#PhuketTown"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#RoyalGrandPalace"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#SkybridgeCableCar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#Tanzania"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#Tanzania_Art_Gallery"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#ThreeBeachesHill"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#TropicalGarden"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Countries"/>
+        <NamedIndividual IRI="#USA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Attractions"/>
+        <NamedIndividual IRI="#UnderwaterWorld"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#WashingtonDC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cities"/>
+        <NamedIndividual IRI="#Zanzibar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+        <NamedIndividual IRI="#1star_rating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#long"/>
+        <NamedIndividual IRI="#10_days_9_nights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#short"/>
+        <NamedIndividual IRI="#2_days_1_night"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+        <NamedIndividual IRI="#2star_rating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#short"/>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+        <NamedIndividual IRI="#3star_rating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#medium"/>
+        <NamedIndividual IRI="#4_days_3_nights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#medium"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#long"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#Bangkok"/>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q1861"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q1865"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Langkawi"/>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q273303"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Pattaya"/>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q170919"/>
+    </SameIndividual>
+    <SameIndividual>
+        <NamedIndividual IRI="#Phuket"/>
+        <NamedIndividual IRI="https://www.wikidata.org/entity/Q182565"/>
+    </SameIndividual>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#1star_rating"/>
+        <NamedIndividual IRI="#2star_rating"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#1star_rating"/>
+        <NamedIndividual IRI="#3star_rating"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#10_days_9_nights"/>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#2star_rating"/>
+        <NamedIndividual IRI="#3star_rating"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CapitalOf"/>
+        <NamedIndividual IRI="#Bangkok"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CityIn"/>
+        <NamedIndividual IRI="#Bangkok"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Bangkok"/>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Bangkok"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#BuddhaTemple"/>
+        <NamedIndividual IRI="#Bangkok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#CentralMarket"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#EagleSquare"/>
+        <NamedIndividual IRI="#Langkawi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#FloatingMarket"/>
+        <NamedIndividual IRI="#Pattaya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#JomteinBeach"/>
+        <NamedIndividual IRI="#Pattaya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CapitalOf"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CityIn"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+        <NamedIndividual IRI="#3_days_2_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CityIn"/>
+        <NamedIndividual IRI="#Langkawi"/>
+        <NamedIndividual IRI="#Malaysia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Langkawi"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#LumphiniPark"/>
+        <NamedIndividual IRI="#Bangkok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Malaysia"/>
+        <NamedIndividual IRI="#5_days_4_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#Menara_Tower"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#PatongBeach"/>
+        <NamedIndividual IRI="#Phuket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CityIn"/>
+        <NamedIndividual IRI="#Pattaya"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Pattaya"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#PetronasTwinTowers"/>
+        <NamedIndividual IRI="#Kuala-Lumpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CityIn"/>
+        <NamedIndividual IRI="#Phuket"/>
+        <NamedIndividual IRI="#Thailand"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Phuket"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#PhuketTown"/>
+        <NamedIndividual IRI="#Phuket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#RoyalGrandPalace"/>
+        <NamedIndividual IRI="#Bangkok"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#SkybridgeCableCar"/>
+        <NamedIndividual IRI="#Langkawi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#packageof"/>
+        <NamedIndividual IRI="#Thailand"/>
+        <NamedIndividual IRI="#7_days_6_nights"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#ThreeBeachesHill"/>
+        <NamedIndividual IRI="#Phuket"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#TropicalGarden"/>
+        <NamedIndividual IRI="#Pattaya"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#locatedin"/>
+        <NamedIndividual IRI="#UnderwaterWorld"/>
+        <NamedIndividual IRI="#Langkawi"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CapitalOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#CityIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#locatedin"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CapitalOf"/>
+        <Class IRI="#Cities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#CityIn"/>
+        <Class IRI="#Cities"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_rating"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#Accommodation"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#locatedin"/>
+        <Class IRI="#Attractions"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#packageof"/>
+        <Class IRI="#Destinations"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#which_includes"/>
+        <Class IRI="#TourDuration"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CapitalOf"/>
+        <Class IRI="#Countries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#CityIn"/>
+        <Class IRI="#Countries"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_rating"/>
+        <Class IRI="http://www.owl-ontologies.com/travel.owl#AccommodationRating"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#locatedin"/>
+        <Class IRI="#Cities"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#packageof"/>
+        <Class IRI="#TourDuration"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#which_includes"/>
+        <Class IRI="#Destinations"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NumberOfDays"/>
+        <Class IRI="#TourBooking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NumberOf_Nights"/>
+        <Class IRI="#TourBooking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_Of_People"/>
+        <Class IRI="#TourBooking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TourDates"/>
+        <Class IRI="#TourBooking"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#NumberOfDays"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#NumberOf_Nights"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_Of_People"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#TourDates"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.owl-ontologies.com/travel.owl#Accommodation</IRI>
+        <Literal xml:lang="en">Specifies the type of accomodation available during the tour along with the ratings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.owl-ontologies.com/travel.owl#AccommodationRating</IRI>
+        <Literal xml:lang="en">List of different ratings assigned to each accomodation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.owl-ontologies.com/travel.owl#BudgetAccommodation</IRI>
+        <Literal xml:lang="en">Various hotels and such which have either 1 star or 2 star ratings</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.owl-ontologies.com/travel.owl#Campground</IRI>
+        <Literal xml:lang="en">Basing Campground with 1 star accomodation rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.owl-ontologies.com/travel.owl#LuxuryHotel</IRI>
+        <Literal xml:lang="en">A Luxury Hotel with 3 star rating</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Attractions</IRI>
+        <Literal xml:lang="en">Consists of all the attractions and places to visit in each city</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Bangkok</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q1861</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Cities</IRI>
+        <Literal xml:lang="en">City in South-East Asian Country</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Countries</IRI>
+        <Literal xml:lang="en">South-East Asian Countries</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Destinations</IRI>
+        <Literal xml:lang="en">These are the places which will be covered in the tour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Kuala-Lumpur</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q1865</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Langkawi</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q273303</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Malaysia</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q833</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Pattaya</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q170919</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Phuket</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q182565</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>#Thailand</IRI>
+        <IRI>https://www.wikidata.org/wiki/Q869</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TourBooking</IRI>
+        <Literal xml:lang="en">Class which handles bookings of the tours made by the customers</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#TourDuration</IRI>
+        <Literal xml:lang="en">Specifies the duration of the tour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WorldTour</IRI>
+        <Literal xml:lang="en">this is the tour provided by Watt-tours which covers major countries of the world</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WorldTour</IRI>
+        <Literal xml:lang="en">WattTour</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#long</IRI>
+        <Literal xml:lang="en">Long Duration Tour spanning 7 days and 6 nights covering the country of Thailand which has 3 cities to visit</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#medium</IRI>
+        <Literal xml:lang="en">Medium Duration Tour spanning 5 days and 4 nights covering the country of Malaysia which has 2 cities</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#short</IRI>
+        <Literal xml:lang="en">Short duration spanning 3 Days and 2 nights which covers only 1 city: either Bangkok or Kuala Lumpur.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.wikidata.org/entity/Q170919</IRI>
+        <Literal>Wiki:Pattaya</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.wikidata.org/entity/Q182565</IRI>
+        <Literal>Wiki:Phuket</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.wikidata.org/entity/Q1861</IRI>
+        <Literal>Wiki:Bangkok</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.wikidata.org/entity/Q1865</IRI>
+        <Literal>Wiki:Kuala-Lumpur</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>https://www.wikidata.org/entity/Q273303</IRI>
+        <Literal>Wiki:Langkawi</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
